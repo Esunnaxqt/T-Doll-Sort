@@ -955,7 +955,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mk 48",
-    img: "TYh7jp8",
+    img: "TYh7jp8.png",
     opts: {
       rpgclass: ["MG"],
       rarity: ["st4"],
@@ -1009,7 +1009,8 @@ dataSet[dataSetVersion].characterData = [
     img: "W89xyzD.png",
     opts: {
       rpgclass: ["SMG"],
-      rarity: ["st5"]
+      rarity: ["st5"],
+	  EN: true
     }
   },
   {
