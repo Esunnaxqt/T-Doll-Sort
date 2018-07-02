@@ -13,7 +13,7 @@ dataSet[dataSetVersion].options = [
       { name: "Assault Rifles", key: "AR" },
       { name: "Rifles", key: "RF" },
       { name: "Machine Guns", key: "MG" },
-      { name: "Shotguns", key: "SG" }
+      { name: "Shotguns", key: "SG"}
     ]
   },
   {
@@ -27,18 +27,18 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove guns unavailable on global server",
     key: "EN",
-    tooltip: "Check this to remove guns completely unobtainable as of 22 June 2018 in Global Server."
+    tooltip: "Check this to remove guns completely unavailable as of 3 July 2018 in Global Server. VERY INCOMPLETE!"
   },
   {
-    name: "Remove Non T-Dolls",
+    name: "Remove non T-dolls",
     key: "notgirl",
-    tooltip: "Check this to remove Kalina and Persica from the sorter."
+    tooltip: "Mrs. Kalina, Persica and Helian."
   }
 ];
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "Colt SAA Revolver",
+    name: "SAA",
     img: "W3wTsp8.png",
     opts: {
       rpgclass: ["HG"],
@@ -62,7 +62,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Nagant Revolver",
+    name: "M1895",
     img: "gliLqwM.png",
     opts: {
       rpgclass: ["HG"],
@@ -94,7 +94,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Walther P.38",
+    name: "P38",
     img: "TDT5A6S.png",
     opts: {
       rpgclass: ["HG"],
@@ -102,7 +102,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Walther PPK",
+    name: "PPK",
     img: "FKmQiT3.png",
     opts: {
       rpgclass: [ "HG" ],
@@ -118,7 +118,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Mauser C96",
+    name: "C96",
     img: "BOxBzef.png",
     opts: {
       rpgclass: ["HG"],
@@ -126,7 +126,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type 92",
+    name: "Type92",
     img: "LB0QdEk.png",
     opts: {
       rpgclass: ["HG"],
@@ -134,7 +134,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Astra 357 Revolver",
+    name: "Astra",
     img: "oPAgNcY.png",
     opts: {
       rpgclass: ["HG"],
@@ -142,7 +142,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Glock 17",
+    name: "G17",
     img: "YZ477lM.png",
     opts: {
       rpgclass: ["HG"],
@@ -166,7 +166,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Ingram MAC-10",
+    name: "Ingram",
     img: "R1VYDth.png",
     opts: {
       rpgclass: ["SMG"],
@@ -182,7 +182,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "KRISS Vector",
+    name: "Vector",
     img: "Osv5S08.png",
     opts: {
       rpgclass: [ "SMG" ],
@@ -190,7 +190,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Papasha!",
+    name: "PPSh-41",
     img: "uIGlrwh.png",
     opts: {
       rpgclass: [ "SMG" ],
@@ -231,7 +231,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK MP5",
+    name: "Gr MP5",
     img: "PfdkEsZ.png",
     opts: {
       rpgclass: ["SMG"],
@@ -239,7 +239,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Škorpion vz. 61",
+    name: "Skorpion",
     img: "wyRNfnF.png",
     opts: {
       rpgclass: ["SMG"],
@@ -256,7 +256,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "STEN",
+    name: "STEN MkII",
     img: "7lNpiy9.png",
     opts: {
       rpgclass: ["SMG"],
@@ -264,7 +264,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Beretta Modello 38",
+    name: "M38",
     img: "yTP0g3a.png",
     opts: {
       rpgclass: ["SMG"],
@@ -296,7 +296,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "M1 carbine",
+    name: "M1A1",
     img: "o6rEgyZ.png",
     opts: {
       rpgclass: ["RF"],
@@ -344,7 +344,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "SKS ''Simonova''",
+    name: "Simonova",
     img: "kemVH6h.png",
     opts: {
       rpgclass: ["RF"],
@@ -360,7 +360,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "SVD 'Dragunov'",
+    name: "SVD",
     img: "a3tocNN.png",
     opts: {
       rpgclass: ["RF"],
@@ -384,7 +384,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Gewehr 43",
+    name: "G43",
     img: "o8dzAzd.png",
     opts: {
       rpgclass: ["RF"],
@@ -392,7 +392,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Walther WA 2000",
+    name: "WA2000",
     img: "dbr61Qe.png",
     opts: {
       rpgclass: ["RF"],
@@ -409,7 +409,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Lee-Enfield",
+    name: "Lee Enfield",
     img: "jZN48OV.png",
     opts: {
       rpgclass: ["RF"],
@@ -417,7 +417,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FN-49",
+    name: "FF FN49",
     img: "UvtiST5.png",
     opts: {
       rpgclass: ["RF"],
@@ -425,7 +425,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Beretta BM59",
+    name: "VM59",
     img: "54VT4m3.png",
     opts: {
       rpgclass: ["RF"],
@@ -489,7 +489,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sturmgewehr 44",
+    name: "StG44",
     img: "iqevWWH.png",
     opts: {
       rpgclass: ["AR"],
@@ -497,7 +497,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK G41",
+    name: "Gr G41",
     img: "0IqRSXO.png",
     opts: {
       rpgclass: ["AR"],
@@ -505,7 +505,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK G3",
+    name: "Gr G3",
     img: "Q213VMR.png",
     opts: {
       rpgclass: ["AR"],
@@ -513,7 +513,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK G36",
+    name: "Gr G36",
     img: "kuoqf7e.png",
     opts: {
       rpgclass: ["AR"],
@@ -521,7 +521,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK 416",
+    name: "416",
     img: "19n1BMk.png",
     opts: {
       rpgclass: ["AR"],
@@ -529,7 +529,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type 56-1",
+    name: "Type56-1",
     img: "fOuWKdy.png",
     opts: {
       rpgclass: ["AR"],
@@ -537,7 +537,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "L85A1 IW",
+    name: "L85A1",
     img: "wSNfG5S.png",
     opts: {
       rpgclass: ["AR"],
@@ -545,7 +545,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FAMAS",
+    name: "Fr FAMAS",
     img: "YpLUyW0.png",
     opts: {
       rpgclass: ["AR"],
@@ -553,7 +553,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FNC",
+    name: "FF FNC",
     img: "eUzNrka.png",
     opts: {
       rpgclass: ["AR"],
@@ -569,7 +569,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "IWI Tavor",
+    name: "TAR-21",
     img: "gVYXQSf.png",
     opts: {
       rpgclass: ["AR"],
@@ -586,7 +586,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "SIG SG 510",
+    name: "SIG-510",
     img: "9CqwDzg.png",
     opts: {
       rpgclass: ["AR"],
@@ -594,7 +594,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "B.A.R. M1918",
+    name: "M1918",
     img: "3PyfOOU.png",
     opts: {
       rpgclass: ["MG"],
@@ -618,7 +618,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "M249 SAW",
+    name: "FF M249SAW",
     img: "oeI0JnG.png",
     opts: {
       rpgclass: ["MG"],
@@ -642,7 +642,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Degtyaryova Pekhotnyj",
+    name: "DP28",
     img: "oIuO9gi.png",
     opts: {
       rpgclass: ["MG"],
@@ -667,7 +667,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Maschinengewehr 42",
+    name: "MG42",
     img: "iw0x63O.png",
     opts: {
       rpgclass: ["MG"],
@@ -675,7 +675,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Maschinengewehr 34",
+    name: "MG34",
     img: "bTkJz2t.png",
     opts: {
       rpgclass: ["MG"],
@@ -683,7 +683,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK MG3",
+    name: "MG3",
     img: "T3Vn3gK.png",
     opts: {
       rpgclass: ["MG"],
@@ -691,7 +691,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Bren LMG",
+    name: "Bren",
     img: "qvRx9sZ.png",
     opts: {
       rpgclass: ["MG"],
@@ -699,7 +699,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FN FNP9",
+    name: "FF FNP9",
     img: "m8PtsUE.png",
     opts: {
       rpgclass: ["HG"],
@@ -707,7 +707,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "MP-446 Viking",
+    name: "MP-446",
     img: "izC8FSw.png",
     opts: {
       rpgclass: ["HG"],
@@ -723,7 +723,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Bushman IDW",
+    name: "IDW",
     img: "wRW5AHG.png",
     opts: {
       rpgclass: ["SMG"],
@@ -731,7 +731,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type 64",
+    name: "Type64",
     img: "7oJpUN3.jpg",
     opts: {
       rpgclass: ["SMG"],
@@ -739,7 +739,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Hanyang Type 88",
+    name: "Type88",
     img: "HzzrLI6.jpg",
     opts: {
       rpgclass: ["RF"],
@@ -747,7 +747,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Grizzly MkV",
+    name: "Grizzly",
     img: "vteN5lk.png",
     opts: {
       rpgclass: ["HG"],
@@ -755,7 +755,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Calico M950",
+    name: "M950A",
     img: "GO68eiD.png",
     opts: {
       rpgclass: ["HG"],
@@ -772,7 +772,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK MK23",
+    name: "Gr Mk23",
     img: "2HBEpGz.png",
     opts: {
       rpgclass: ["HG"],
@@ -780,7 +780,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK P7",
+    name: "P7",
     img: "2IDsO88.png",
     opts: {
       rpgclass: ["HG"],
@@ -788,7 +788,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK UMP9",
+    name: "UMP9",
     img: "hAS8OC4.png",
     opts: {
       rpgclass: ["SMG"],
@@ -796,7 +796,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK UMP40",
+    name: "UMP40",
     img: "XuRqSCh.png",
     opts: {
       rpgclass: ["SMG"],
@@ -805,7 +805,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK UMP45",
+    name: "UMP45",
     img: "eKn7mhf.png",
     opts: {
       rpgclass: ["SMG"],
@@ -813,7 +813,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK G36C",
+    name: "Gr G36c",
     img: "mPO8SOy.png",
     opts: {
       rpgclass: ["SMG"],
@@ -821,7 +821,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "OTs-12 Tiss",
+    name: "OTs-12",
     img: "uAOEFkW.png",
     opts: {
       rpgclass: ["AR"],
@@ -829,7 +829,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FN FAL",
+    name: "FAL",
     img: "yswXsJo.png",
     opts: {
       rpgclass: ["AR"],
@@ -837,7 +837,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   { 
-    name: "FN F2000",
+    name: "FF F2000",
     img: "AXHNqhY.png", 
     opts: {
       rpgclass: ["AR"],
@@ -845,7 +845,7 @@ dataSet[dataSetVersion].characterData = [
     } 
   },
   {
-    name: "CZ 805 BREN",
+    name: "CZ-805",
     img: "tynLJUa.png",
     opts: {
       rpgclass: ["AR"],
@@ -853,7 +853,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "HK MG5",
+    name: "Gr MG5",
     img: "zJzpizw.png",
     opts: {
       rpgclass: ["MG"],
@@ -861,7 +861,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Fallschirmjägergewehr 42",
+    name: "FG42",
     img: "QAKFXaz.png",
     opts: {
       rpgclass: ["MG"],
@@ -877,7 +877,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "IMI Negev",
+    name: "Negev",
     img: "N6AkspD.png",
     opts: {
       rpgclass: ["MG"],
@@ -902,7 +902,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Suomi KP/-31",
+    name: "Suomi",
     img: "ZIx5Ob0.png",
     opts: {
       rpgclass: ["SMG"],
@@ -985,11 +985,10 @@ dataSet[dataSetVersion].characterData = [
     img: "LPbyjwC.png",
     opts: {
       rpgclass: ["RF"],
-      rarity: ["st3"],
-      EN: true
+      rarity: ["st3"]
     }
   },
-  { name: "HK MG4",
+  { name: "Gr MG4",
    	img: "SAhStJ9.png", 
 	opts: {
       rpgclass: ["MG"],
@@ -1014,7 +1013,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Zijiang M99",
+    name: "M99",
     img: "KaDR1Fo.png",
     opts: {
       rpgclass: ["RF"],
@@ -1022,7 +1021,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type 95",
+    name: "Type95",
     img: "9Sz2vMP.png",
     opts: {
       rpgclass: ["AR"],
@@ -1030,7 +1029,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type 97",
+    name: "Type97",
     img: "qqQuBBA.png",
     opts: {
       rpgclass: ["AR"],
@@ -1056,7 +1055,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type 63",
+    name: "Type63",
     img: "9tIksNN.png",
     opts: {
       rpgclass: ["AR"],
@@ -1073,7 +1072,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "SR-3MP Vikhr",
+    name: "SR-3MP",
     img: "f45tRAh.png",
     opts: {
       rpgclass: ["SMG"],
@@ -1125,7 +1124,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "FN Five-seveN",
+    name: "Five-seven",
     img: "6r6fYSC.png",
     opts: {
       rpgclass: ["HG"],
@@ -1139,6 +1138,87 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["st5"],
 	  EN: true
     } },
+  
+  { name: "Persica", 
+	img: "EhMtTaF.png", 
+	opts: {
+		notgirl: true,
+	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Kalina", 
+	img: "8VSfeZl.png", 
+	opts: {
+      notgirl: true,
+	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+	  } },
+  
+  { name: "Helianthus", 
+	img: "YPYCpCc.png", 
+	opts: {
+		notgirl: true,
+	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Am KSG", 
+	img: "T9G2UBu.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st5"]
+    } },
+	
+	{ name: "M37", 
+	img: "m7qPkbX.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st4"]
+    } },
+	
+	{ name: "M500", 
+	img: "J1NPjdu.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st3"]
+    } },
+	
+	{ name: "M590", 
+	img: "L9TF4Vx.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st4"]
+    } },
+	
+	{ name: "Super-Shorty", 
+	img: "8T8IxC7.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st4"]
+    } },
+	
+	{ name: "KS-23", 
+	img: "c3vA3Gn.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st3"]
+    } },
+	
+	{ name: "RMB-93", 
+	img: "tmgAviM.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st3"]
+    } },
+	
+	{ name: "Type97S", 
+	img: "ho2BLlw.png", 
+	opts: {
+		rpgclass: ["SG"],
+		rarity: ["st5"]
+    } },
+  
   {
     name: "ASh-12.7",
     img: "dO52Qxz.png",
