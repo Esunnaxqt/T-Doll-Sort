@@ -25,9 +25,9 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
-    name: "Remove guns unavailable on global server",
+    name: "Remove guns unavailable on global server. VERY INCOMPLETE!",
     key: "EN",
-    tooltip: "Check this to remove guns completely unavailable as of 3 July 2018 in Global Server. VERY INCOMPLETE!"
+    tooltip: "Check this to remove guns completely unavailable as of 17 July 2018 in Global Server."
   },
   {
     name: "Remove non T-dolls",
@@ -1235,6 +1235,15 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["st4"],
 	  EN: true
     } },	
+	
+		{ name: "IWS2000", 
+	img: "I16r24X.png", 
+	opts: {
+      rpgclass: ["RF"],
+      rarity: ["st5"],
+	  EN: true
+    } },	
+	
   
   {
     name: "ASh-12.7",
