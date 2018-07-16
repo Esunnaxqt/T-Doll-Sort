@@ -767,8 +767,7 @@ dataSet[dataSetVersion].characterData = [
     img: "0Sl4XO4.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st4"],
-	  EN: true
+      rarity: ["st4"]
     }
   },
   {
@@ -910,21 +909,19 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Star Model Z62",
+    name: "Z-62",
     img: "yDKixlD.png",
     opts: {
       rpgclass: ["SMG"],
-      rarity: ["st3"],
-	  EN: true
+      rarity: ["st3"]
     }
   },
   {
-    name: "PSG-1",
+    name: "Gr PSG-1",
     img: "xPFuUNi.png",
     opts: {
       rpgclass: ["RF"],
-      rarity: ["st4"],
-	  EN: true
+      rarity: ["st4"]
     }
   },
   {
@@ -936,21 +933,19 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "OTs-14 Groza",
+    name: "OTs-14",
     img: "IcAfOxb.png",
     opts: {
       rpgclass: ["AR"],
-      rarity: ["st5"],
-	  EN: true
+      rarity: ["st5"]
     }
   },
   {
-    name: "Beretta ARX160",
+    name: "ARX-160",
     img: "cOVncyA.png",
     opts: {
       rpgclass: ["AR"],
-      rarity: ["st3"],
-	  EN: true
+      rarity: ["st3"]
     }
   },
   {
@@ -963,12 +958,11 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "G11",
+    name: "Gr G11",
     img: "zK8VHKR.png",
     opts: {
       rpgclass: ["AR"],
-      rarity: ["st5"],
-	  EN: true
+      rarity: ["st5"]
     }
   },
   {
@@ -1218,6 +1212,29 @@ dataSet[dataSetVersion].characterData = [
 		rpgclass: ["SG"],
 		rarity: ["st5"]
     } },
+	
+		{ name: "PKP", 
+	img: "wNSvvfS.png", 
+	opts: {
+		rpgclass: ["MG"],
+		rarity: ["st5"]
+    } },
+  
+	  { name: "Ribeyrolles", 
+	img: "Hsb4QnV.png", 
+	opts: {
+      rpgclass: ["AR"],
+      rarity: ["st4"],
+	  EN: true
+    } },
+	
+	{ name: "XM8", 
+	img: "DCDSp5C.png", 
+	opts: {
+      rpgclass: ["AR"],
+      rarity: ["st4"],
+	  EN: true
+    } },	
   
   {
     name: "ASh-12.7",
