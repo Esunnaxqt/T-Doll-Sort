@@ -205,15 +205,7 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["st3"]
     }
   },
-  {
-    name: "PP90",
-    img: "wm8pDfg.png",
-    opts: {
-      rpgclass: [ "SMG" ],
-      rarity: ["st4"],
-	  EN: true
-    }
-  },
+  
   {
     name: "PP-2000",
     img: "y9tp82d.png",
@@ -953,8 +945,7 @@ dataSet[dataSetVersion].characterData = [
     img: "TYh7jp8.png",
     opts: {
       rpgclass: ["MG"],
-      rarity: ["st4"],
-	  EN: true
+      rarity: ["st4"]
     }
   },
   {
@@ -966,12 +957,11 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Walther P99",
+    name: "P99",
     img: "7lBzesK.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st3"],
-	  EN: true
+      rarity: ["st3"]
     }
   },
   {
@@ -997,15 +987,7 @@ dataSet[dataSetVersion].characterData = [
 	  EN: true
     }
   },
-  {
-    name: "Type 79",
-    img: "W89xyzD.png",
-    opts: {
-      rpgclass: ["SMG"],
-      rarity: ["st5"],
-	  EN: true
-    }
-  },
+  
   {
     name: "M99",
     img: "KaDR1Fo.png",
@@ -1236,13 +1218,47 @@ dataSet[dataSetVersion].characterData = [
 	  EN: true
     } },	
 	
-		{ name: "IWS2000", 
+		{ name: "IWS 2000", 
 	img: "I16r24X.png", 
 	opts: {
       rpgclass: ["RF"],
-      rarity: ["st5"],
-	  EN: true
+      rarity: ["st5"]
+    } },
+
+	{ name: "PP-90", 
+	img: "bCidk5M.png", 
+	opts: {
+      rpgclass: ["SMG"],
+      rarity: ["st4"]
     } },	
+	
+	{ name: "Type 79", 
+	img: "pN6PX6Q.png", 
+	opts: {
+      rpgclass: ["SMG"],
+      rarity: ["st5"]
+    } },
+	
+	{ name: "MT-9", 
+	img: "ij4bK0k.png", 
+	opts: {
+      rpgclass: ["SMG"],
+      rarity: ["st3"]
+    } },
+	
+	{ name: "RPD", 
+	img: "hvFhdG5.png", 
+	opts: {
+      rpgclass: ["MG"],
+      rarity: ["st3"]
+    } },
+	
+	{ name: "CZ75", 
+	img: "kOgXCXb.png", 
+	opts: {
+      rpgclass: ["HG"],
+      rarity: ["st5"]
+    } },
 	
   
   {
