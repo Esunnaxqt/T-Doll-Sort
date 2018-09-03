@@ -27,7 +27,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove guns unavailable on global server. VERY INCOMPLETE!",
     key: "EN",
-    tooltip: "Check this to remove guns completely unavailable as of 17 July 2018 in Global Server."
+    tooltip: "Check this to remove guns completely unavailable as of 4 September 2018 in Global Server."
   },
   {
     name: "Remove non T-dolls",
@@ -1206,6 +1206,67 @@ dataSet[dataSetVersion].characterData = [
 	img: "Hsb4QnV.png", 
 	opts: {
       rpgclass: ["AR"],
+      rarity: ["st4"],
+	  EN: true
+    } },
+	
+	//SAT8
+	{ name: "S.A.T.8", 
+	img: "PlFRzZy.png", 
+	opts: {
+      rpgclass: ["SG"],
+      rarity: ["st5"],
+	  EN: true
+    } },
+	
+	
+	{ name: "Colt Python", 
+	img: "cIqDTV7.png", 
+	opts: {
+      rpgclass: ["HG"],
+      rarity: ["st5"],
+	  EN: true
+    } },
+	
+	//SPAS
+	{ name: "SPAS-12", 
+	img: "NgRB6Pl.png", 
+	opts: {
+      rpgclass: ["SG"],
+      rarity: ["st4"],
+	  EN: true
+    } },
+	
+	
+	{ name: "Type 80", 
+	img: "YrODJMQ.png", 
+	opts: {
+      rpgclass: ["MG"],
+      rarity: ["st4"],
+	  EN: true
+    } },
+	
+	
+	{ name: "Thunder", 
+	img: "xJW8Z7Q.png", 
+	opts: {
+      rpgclass: ["HG"],
+      rarity: ["st4"],
+	  EN: true
+    } },
+	
+	{ name: "Contender", 
+	img: "2lv8YUt.png", 
+	opts: {
+      rpgclass: ["HG"],
+      rarity: ["st5"],
+	  EN: true
+    } },
+	
+	{ name: "Ameli", 
+	img: "rsnVyrT.png", 
+	opts: {
+      rpgclass: ["MG"],
       rarity: ["st4"],
 	  EN: true
     } },
