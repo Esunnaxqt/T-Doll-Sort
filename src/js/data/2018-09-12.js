@@ -1022,11 +1022,12 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type59",
+    name: "Type 59",
     img: "KXSDADr.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st3"]
+      rarity: ["st3"],
+	  EN: true
     }
   },
   {
@@ -1085,7 +1086,8 @@ dataSet[dataSetVersion].characterData = [
     img: "H5LZNU5.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st2"]
+      rarity: ["st2"],
+	  EN: true
     }
   },
   {
@@ -1093,7 +1095,8 @@ dataSet[dataSetVersion].characterData = [
     img: "xZUVCTu.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st3"]
+      rarity: ["st3"],
+      EN: true
     }
   },
   {
@@ -1108,7 +1111,8 @@ dataSet[dataSetVersion].characterData = [
 	img: "4p02TtH.png", 
 	opts: {
       rpgclass: ["SMG"],
-      rarity: ["st5"]
+      rarity: ["st5"],
+	  EN: true
     } },
   
   { name: "Persica", 
@@ -1317,14 +1321,6 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["st5"]
     } },
 	
-	{
-    name: "Gr USP Compact",
-    img: "YZpG82v.png",
-    opts: {
-      rpgclass: ["HG"],
-      rarity: ["st2"]
-    }
-  },
   
   {
     name: "ASh-12.7",
