@@ -1,4 +1,4 @@
-dataSetVersion = "2018-02-20"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2018-02-21"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -13,7 +13,8 @@ dataSet[dataSetVersion].options = [
       { name: "Assault Rifles", key: "AR" },
       { name: "Rifles", key: "RF" },
       { name: "Machine Guns", key: "MG" },
-      { name: "Shotguns", key: "SG"}
+      { name: "Shotguns", key: "SG"},
+	  { name: "Sangvis Ferris", key: "SF" }
     ]
   },
   {
@@ -983,8 +984,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Ya4kGcg.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st5"],
-	  EN: true
+      rarity: ["st5"]
     }
   },
   
@@ -1022,11 +1022,12 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Type59",
+    name: "Type 59",
     img: "KXSDADr.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st3"]
+      rarity: ["st3"],
+	  EN: true
     }
   },
   {
@@ -1085,7 +1086,8 @@ dataSet[dataSetVersion].characterData = [
     img: "H5LZNU5.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st2"]
+      rarity: ["st2"],
+	  EN: true
     }
   },
   {
@@ -1093,7 +1095,8 @@ dataSet[dataSetVersion].characterData = [
     img: "xZUVCTu.png",
     opts: {
       rpgclass: ["HG"],
-      rarity: ["st3"]
+      rarity: ["st3"],
+      EN: true
     }
   },
   {
@@ -1108,7 +1111,8 @@ dataSet[dataSetVersion].characterData = [
 	img: "4p02TtH.png", 
 	opts: {
       rpgclass: ["SMG"],
-      rarity: ["st5"]
+      rarity: ["st5"],
+	  EN: true
     } },
   
   { name: "Persica", 
@@ -1126,6 +1130,30 @@ dataSet[dataSetVersion].characterData = [
 	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
 	  rarity: ["st2", "st3", "st4", "st5", "ex"]
 	  } },
+	  
+	  { name: "Angelica", 
+	img: "9m4cGS2.png", 
+	opts: {
+      notgirl: true,
+	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+	  } },
+	  
+	  { name: "Nyto Obelisk", 
+	img: "k3geabt.png", 
+	opts: {
+      notgirl: true,
+	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+	  } },
+	  
+	  { name: "Nyto Polarday", 
+	img: "LENVlVl.png", 
+	opts: {
+      notgirl: true,
+	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+	  } },
   
   { name: "Helianthus", 
 	img: "YPYCpCc.png", 
@@ -1134,6 +1162,8 @@ dataSet[dataSetVersion].characterData = [
 	  rpgclass: ["HG", "SMG", "SG", "MG", "AR", "RF"],
 	  rarity: ["st2", "st3", "st4", "st5", "ex"]
     } },
+	
+	
 	
 	{ name: "Am KSG", 
 	img: "T9G2UBu.png", 
@@ -1202,8 +1232,7 @@ dataSet[dataSetVersion].characterData = [
 	img: "Hsb4QnV.png", 
 	opts: {
       rpgclass: ["AR"],
-      rarity: ["st4"],
-	  EN: true
+      rarity: ["st4"]
     } },
 	
 	//SAT8
@@ -1211,8 +1240,99 @@ dataSet[dataSetVersion].characterData = [
 	img: "PlFRzZy.png", 
 	opts: {
       rpgclass: ["SG"],
-      rarity: ["st5"],
-	  EN: true
+      rarity: ["st5"]
+    } },
+	
+	//Sangvis
+	{ name: "Agent", 
+	img: "5IVdcE4.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Elisa", 
+	img: "MIByVuu.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Scarecrow", 
+	img: "1RBZb5P.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Executioner", 
+	img: "ItkqP0A.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Judge", 
+	img: "8kpN1ll.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Architect", 
+	img: "ow3wCTq.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Gager", 
+	img: "gNWAUEg.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Dreamer", 
+	img: "7QZmXMv.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Ouroboros", 
+	img: "A4ASSDK.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Alchemist", 
+	img: "FLJXYdg.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Destroyer", 
+	img: "ZH3JLwj.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Intruder", 
+	img: "WRG7I2C.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
+    } },
+	
+	{ name: "Hunter", 
+	img: "Iuj11VP.png", 
+	opts: {
+	  rpgclass: ["SF"],
+	  rarity: ["st2", "st3", "st4", "st5", "ex"]
     } },
 	
 	
@@ -1255,8 +1375,7 @@ dataSet[dataSetVersion].characterData = [
 	img: "2lv8YUt.png", 
 	opts: {
       rpgclass: ["HG"],
-      rarity: ["st5"],
-	  EN: true
+      rarity: ["st5"]
     } },
 	
 	{ name: "Ameli", 
@@ -1317,14 +1436,47 @@ dataSet[dataSetVersion].characterData = [
       rarity: ["st5"]
     } },
 	
-	{
-    name: "Gr USP Compact",
-    img: "YZpG82v.png",
-    opts: {
+	{ name: "ZAS M21", 
+	img: "K0fIVYA.png", 
+	opts: {
+      rpgclass: ["AR"],
+      rarity: ["st5"]
+    } },
+	
+	{ name: "Spitfire", 
+	img: "PKTogHd.png", 
+	opts: {
       rpgclass: ["HG"],
-      rarity: ["st2"]
-    }
-  },
+      rarity: ["st4"]
+    } },
+	
+	{ name: "AEK-999", 
+	img: "M4LkWVH.png", 
+	opts: {
+      rpgclass: ["MG"],
+      rarity: ["st4"]
+    } },
+	
+	{ name: "NS2000", 
+	img: "1kO6GKV.png", 
+	opts: {
+      rpgclass: ["SG"],
+      rarity: ["st3"]
+    } },
+	
+	{ name: "USAS-12", 
+	img: "1LBoCtR.png", 
+	opts: {
+      rpgclass: ["SG"],
+      rarity: ["st4"]
+    } },
+	
+	{ name: "JS05", 
+	img: "EsKvdXy.png", 
+	opts: {
+      rpgclass: ["RF"],
+      rarity: ["st5"]
+    } },
   
   {
     name: "ASh-12.7",
